@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿StreamWriter sw = new("test.txt");
 
-Console.WriteLine("Hello, World!");
+sw.WriteLine("This is a test text file");
+
+sw.Close();
