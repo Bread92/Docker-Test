@@ -1,5 +1,5 @@
 ﻿StreamWriter sw = new("test.txt");
 
-sw.WriteLine("This is a test text file");
+sw.Write(Console.ReadLine()!);
 
 sw.Close();
